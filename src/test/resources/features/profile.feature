@@ -3,7 +3,7 @@ Feature: Profile Test
   Background:
     Given The user is on the login page
 
-  @scenario
+  @scenario @wip
   Scenario: user should be able to edit profile
     When The user logs in using "john@gmail.com" and "John1234."
     And The user should be able to login
